@@ -1,1 +1,82 @@
-Hello World
+<!DOCTYPE html>
+<html lang="eo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="blog,developer,personal,go,golang,vim,neovim,linux">
+    <meta name="author" content="Walter Fabián Rodríguez Salazar">
+    <meta name="description" content="Página personal de Walter Rodríguez">
+    <meta name="author" content="Walter Rodríguez">
+    <title>Página personal de Walter Rodríguez</title>
+    <link rel="icon" href="/static/img/w.svg" type="image/svg+xml">
+    <style>
+@font-face {
+    font-family: 'Iosevka';
+    src: url('/static/fonts/IosevkaTermSlabNerdFont.ttf') format('truetype');
+}
+
+.container {
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #c3c7cb;
+    font-family: 'Iosevka';
+}
+
+main {
+    width: 25%;
+}
+
+main .about {
+    text-align: center;
+}
+
+.avatar > img {
+    width: 15rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    margin-top: 0.5em;
+}
+
+.social-cont {
+    display: block;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="about">
+                <div class="avatar">
+                    <img src="/static/img/avatar.jpg" alt="">
+                </div>
+                <h1>Walter Rodríguez</h1>
+                <h2>Backend Developer</h2>
+                <div class="social-cont">
+                    <a href="#"><img src="/static/img/linkedin.svg" alt=""></a>
+                    <a href="#"><img src="/static/img/github.svg" alt=""></a>
+                    <a href="#"><img src="/static/img/gmail.svg" alt=""></a>
+                    <a href="#"><img src="/static/img/rss.svg" alt=""></a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
